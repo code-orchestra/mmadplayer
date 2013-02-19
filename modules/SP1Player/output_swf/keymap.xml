@@ -1,0 +1,67 @@
+<map>
+  <action id="FileChooser.TogglePathShowing" win="CONTROL P" mac="META P"/>
+  <action id="ShowSettings" win="CONTROL ALTERNATE S" mac="META COMMA"/>
+  <action id="ShowProjectStructureSettings" win="CONTROL ALTERNATE SHIFT S" mac="META SEMICOLON"/>
+  <action id="Generate" win="ALTERNATE INSERT" mac="META N"/>
+  <action id="CommentByBlockComment" win="CONTROL SHIFT SLASH" mac="META ALTERNATE SLASH"/>
+  <action id="QuickImplementations" win="CONTROL SHIFT I" mac="ALTERNATE SPACE"/>
+  <action id="$Undo" win="CONTROL Z" mac="META Z"/>
+  <action id="EditorScrollUp" win="CONTROL UP" mac="META UP"/>
+  <action id="GotoClass" win="CONTROL N" mac="META O"/>
+  <action id="GotoSymbol" win="CONTROL SHIFT ALTERNATE N" mac="META ALTERNATE O"/>
+  <action id="EditorScrollDown" win="CONTROL DOWN" mac="META DOWN"/>
+  <action id="PreviousTab" win="ALTERNATE LEFT" mac="CONTROL LEFT"/>
+  <action id="PreviousEditorTab" win="ALTERNATE SHIFT LEFT" mac="CONTROL SHIFT LEFT"/>
+  <action id="EditorPreviousWord" win="CONTROL LEFT" mac="ALTERNATE LEFT"/>
+  <action id="QuickJavaDoc" win="CONTROL Q" mac="CONTROL J"/>
+  <action id="ShowBookmarks" win="SHIFT F11" mac="META F3"/>
+  <action id="GotoFile" win="CONTROL SHIFT N" mac="META SHIFT O"/>
+  <action id="ActivateMessagesToolWindow" win="ALTERNATE 0" mac="META 0"/>
+  <action id="NextSplitter" win="CONTROL TAB" mac="ALTERNATE TAB"/>
+  <action id="PrevSplitter" win="CONTROL SHIFT TAB" mac="ALTERNATE SHIFT TAB"/>
+  <action id="EditorDeleteToWordStart" win="CONTROL BACK_SPACE" mac="ALTERNATE BACK_SPACE"/>
+  <action id="EditorDeleteToWordStart" win="CONTROL BACK_SPACE" mac="ALTERNATE BACK_SPACE"/>
+  <action id="EditorToggleColumnMode" win="ALTERNATE SHIFT INSERT" mac="META SHIFT MULTIPLY"/>
+  <action id="FindPrevious" win="SHIFT F3" mac="CONTROL SHIFT L"/>
+  <action id="FindPrevious" win="SHIFT F3" mac="META SHIFT G"/>
+  <action id="GotoLine" win="CONTROL G" mac="META L"/>
+  <action id="FindInPath" win="CONTROL SHIFT F" mac="META SHIFT F"/>
+  <action id="Find" win="CONTROL F" mac="META F"/>
+  <action id="Run" win="SHIFT F10" mac="CONTROL R"/>
+  <action id="Resume" win="F9" mac="META ALTERNATE R"/>
+  <action id="EditorContextInfo" win="ALTERNATE Q" mac="CONTROL SHIFT Q"/>
+  <action id="MethodDown" win="ALTERNATE DOWN" mac="CONTROL DOWN"/>
+  <action id="EditorPreviousWordWithSelection" win="CONTROL SHIFT LEFT" mac="ALTERNATE SHIFT LEFT"/>
+  <action id="RunClass" win="CONTROL SHIFT F10" mac="CONTROL SHIFT R"/>
+  <action id="FindNext" win="F3" mac="CONTROL L"/>
+  <action id="FindNext" win="F3" mac="META G"/>
+  <action id="MethodUp" win="ALTERNATE UP" mac="CONTROL UP"/>
+  <action id="NextTab" win="ALTERNATE RIGHT" mac="CONTROL RIGHT"/>
+  <action id="NextEditorTab" win="ALTERNATE SHIFT RIGHT" mac="CONTROL SHIFT RIGHT"/>
+  <action id="EditSource" win="F4" mac="META DOWN"/>
+  <action id="EditorNextWordWithSelection" win="CONTROL SHIFT RIGHT" mac="ALTERNATE SHIFT RIGHT"/>
+  <action id="EditorNextWord" win="CONTROL RIGHT" mac="ALTERNATE RIGHT"/>
+  <action id="EditorLineStart" win="HOME" mac="META LEFT"/>
+  <action id="EditorUnSelectWord" win="CONTROL SHIFT W" mac="ALTERNATE DOWN"/>
+  <action id="ToggleBookmark" win="F11" mac="F3"/>
+  <action id="ToggleBookmarkWithMnemonic" win="CONTROL F11" mac="ALTERNATE F3"/>
+  <action id="EditorSelectWord" win="CONTROL W" mac="ALTERNATE UP"/>
+  <action id="EditorLineStartWithSelection" win="SHIFT HOME" mac="META SHIFT LEFT"/>
+  <action id="ReplaceInPath" win="CONTROL SHIFT R" mac="META SHIFT R"/>
+  <action id="ActivateProjectToolWindow" win="ALTERNATE 1" mac="META 1"/>
+  <action id="ActivateRunToolWindow" win="ALTERNATE 4" mac="META 4"/>
+  <action id="ActivateDebugToolWindow" win="ALTERNATE 5" mac="META 5"/>
+  <action id="ActivateChangesToolWindow" win="ALTERNATE 9" mac="META 9"/>
+  <action id="NewElement" win="ALTERNATE INSERT" mac="META N"/>
+  <action id="NewElementSamePlace" win="CONTROL ALTERNATE INSERT" mac="CONTROL ALTERNATE N"/>
+  <action id="EditorLineEndWithSelection" win="SHIFT END" mac="META SHIFT RIGHT"/>
+  <action id="ExportToTextFile" win="ALTERNATE O" mac="CONTROL O"/>
+  <action id="EditorLineEnd" win="END" mac="META RIGHT"/>
+  <action id="Debug" win="SHIFT F9" mac="CONTROL D"/>
+  <action id="SafeDelete" win="ALTERNATE DELETE" mac="META DELETE"/>
+  <action id="EditorDeleteToWordEnd" win="CONTROL DELETE" mac="ALTERNATE DELETE"/>
+  <action id="EditorDeleteToWordEnd" win="CONTROL DELETE" mac="ALTERNATE DELETE"/>
+  <action id="ChooseRunConfiguration" win="ALTERNATE SHIFT F10" mac="CONTROL ALTERNATE R"/>
+  <action id="ChooseDebugConfiguration" win="ALTERNATE SHIFT F9" mac="CONTROL ALTERNATE D"/>
+  <action id="Vcs.QuickListPopupAction" win="ALTERNATE BACK_QUOTE" mac="CTRL V"/>
+</map>
