@@ -1,0 +1,8 @@
+output_swf/
+source_gen/
+source_gen.caches/
+classes_gen/
+*.iws
+*.zip
+*.log
+.DS_Store
