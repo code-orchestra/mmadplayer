@@ -3,12 +3,12 @@
 <compiler>
 <incremental>true</incremental>
 <source-path>
-<path-element>/Users/makc/RASEProjects/SP1/modules/SP1Player/source_gen</path-element>
+<path-element>/Users/makc/CodeOrchestraProjects/mmadplayer/modules/SP1Player/source_gen</path-element>
 </source-path>
 <library-path append="true">
-<path-element>/Users/makc/RASEProjects/SP1/modules/key_swc/key.swc</path-element>
+<path-element>/Users/makc/CodeOrchestraProjects/mmadplayer/modules/key_swc/key.swc</path-element>
 <path-element>/Applications/CodeOrchestra.app/flex_sdk/frameworks/libs/framework.swc</path-element>
-<path-element>/Users/makc/RASEProjects/SP1/modules/TweenLite_swc/TweenLite.swc</path-element>
+<path-element>/Users/makc/CodeOrchestraProjects/mmadplayer/modules/TweenLite_swc/TweenLite.swc</path-element>
 </library-path>
 <keep-as3-metadata>
 <name>MixinReplacement</name>
@@ -18,7 +18,7 @@
 <static-link-runtime-shared-libraries>true</static-link-runtime-shared-libraries>
 <verify-digests>false</verify-digests>
 <file-specs>
-<path-element>/Users/makc/RASEProjects/SP1/modules/SP1Player/source_gen/codeOrchestra/keyboardsimulator/Main3.as</path-element>
+<path-element>/Users/makc/CodeOrchestraProjects/mmadplayer/modules/SP1Player/source_gen/codeOrchestra/keyboardsimulator/Main3.as</path-element>
 </file-specs>
-<output>/Users/makc/RASEProjects/SP1/modules/SP1Player/output_swf/SP1Player.swf</output>
+<output>/Users/makc/CodeOrchestraProjects/mmadplayer/modules/SP1Player/output_swf/SP1Player.swf</output>
 </flex-config>

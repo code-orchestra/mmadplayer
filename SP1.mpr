@@ -24,15 +24,15 @@
   </component>
   <component name="ProjectRootManager" version="2" />
   <component name="ProjectRunConfigurationManager">
-    <configuration default="false" name="SP1" type="ActionScript" factoryName="ActionScriptRunConfiguration">
+    <configuration default="false" name="SP1Player" type="ActionScript" factoryName="ActionScriptRunConfiguration">
       <MyState />
       <myASRunSettings>
         <MyState>
-          <option name="moduleName" value="SP1" />
-          <option name="customFile" value="" />
-          <option name="swfFile" value="$PROJECT_DIR$/modules/SP1/output_swf/movie.swf" />
+          <option name="moduleName" value="SP1Player" />
+          <option name="customFile" value="$PROJECT_DIR$/modules/SP1Player/output_swf/test.html" />
+          <option name="swfFile" value="$PROJECT_DIR$/modules/SP1Player/output_swf/SP1Player.swf" />
           <option name="skipMake" value="false" />
-          <option name="useCustomFile" value="false" />
+          <option name="useCustomFile" value="true" />
           <option name="launcherType" value="0" />
           <option name="flashPlayerPath" value="" />
         </MyState>
@@ -43,15 +43,15 @@
       <ConfigurationWrapper RunnerId="Default Runner" />
       <method />
     </configuration>
-    <configuration default="false" name="SP1Player" type="ActionScript" factoryName="ActionScriptRunConfiguration">
+    <configuration default="false" name="SP1" type="ActionScript" factoryName="ActionScriptRunConfiguration">
       <MyState />
       <myASRunSettings>
         <MyState>
-          <option name="moduleName" value="SP1Player" />
-          <option name="customFile" value="$PROJECT_DIR$/modules/SP1Player/output_swf/test.html" />
-          <option name="swfFile" value="$PROJECT_DIR$/modules/SP1Player/output_swf/SP1Player.swf" />
+          <option name="moduleName" value="SP1" />
+          <option name="customFile" value="" />
+          <option name="swfFile" value="$PROJECT_DIR$/modules/SP1/output_swf/movie.swf" />
           <option name="skipMake" value="false" />
-          <option name="useCustomFile" value="true" />
+          <option name="useCustomFile" value="false" />
           <option name="launcherType" value="0" />
           <option name="flashPlayerPath" value="" />
         </MyState>
