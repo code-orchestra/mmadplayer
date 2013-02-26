@@ -2928,7 +2928,7 @@
                         <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="5164862306785814745" resolveInfo="applyCornerOffsetButton" />
                       </node>
                     </node>
-                    <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.InstanceSetterReference" typeId="3vt2.7094129454662758493" id="881523134348022215">
+                    <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.InstanceSetterReference" typeId="3vt2.7094129454662758493" id="881523134348022792">
                       <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="v8ee.~UIComponent_enabled_set" resolveInfo="enabled" />
                     </node>
                   </node>
@@ -3687,8 +3687,8 @@
                             <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="2511448438343765180" resolveInfo="block" />
                           </node>
                         </node>
-                        <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.InstanceSetterReference" typeId="3vt2.7094129454662758493" id="881523134348022216">
-                          <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="oovz.~SkinnableTextBase_text_set" resolveInfo="text" />
+                        <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.DynamicAccessOperation" typeId="3vt2.4761904554586322129" id="881523134348022784">
+                          <property name="name" nameId="tpck.1169194664001" value="text" />
                         </node>
                       </node>
                     </node>
@@ -3742,7 +3742,7 @@
                             <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="6919392641267796637" resolveInfo="bJumpCancel" />
                           </node>
                         </node>
-                        <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.InstanceSetterReference" typeId="3vt2.7094129454662758493" id="881523134348022217">
+                        <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.InstanceSetterReference" typeId="3vt2.7094129454662758493" id="881523134348022793">
                           <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="v8ee.~UIComponent_enabled_set" resolveInfo="enabled" />
                         </node>
                       </node>
@@ -3754,8 +3754,8 @@
                             <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="6919392641267809509" resolveInfo="bJumpTimes" />
                           </node>
                         </node>
-                        <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.DynamicAccessOperation" typeId="3vt2.4761904554586322129" id="881523134348022210">
-                          <property name="name" nameId="tpck.1169194664001" value="enabled" />
+                        <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.InstanceGetterReference" typeId="3vt2.3820276268350731927" id="881523134348022787">
+                          <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="v8ee.~UIComponent_enabled_get" resolveInfo="enabled" />
                         </node>
                       </node>
                       <node role="rightOperand" roleId="3vt2.426377380078250900" type="3vt2.DotExpression" typeId="3vt2.1237743601670" id="6919392641267808274">
@@ -3778,8 +3778,8 @@
                     <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="6919392641267787147" resolveInfo="bJumpFrom" />
                   </node>
                 </node>
-                <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.InstanceSetterReference" typeId="3vt2.7094129454662758493" id="881523134348022218">
-                  <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="v8ee.~UIComponent_enabled_set" resolveInfo="enabled" />
+                <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.DynamicAccessOperation" typeId="3vt2.4761904554586322129" id="881523134348022785">
+                  <property name="name" nameId="tpck.1169194664001" value="enabled" />
                 </node>
               </node>
             </node>
@@ -4003,7 +4003,7 @@
                             <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="6919392641267796637" resolveInfo="bJumpCancel" />
                           </node>
                         </node>
-                        <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.InstanceSetterReference" typeId="3vt2.7094129454662758493" id="881523134348022219">
+                        <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.InstanceSetterReference" typeId="3vt2.7094129454662758493" id="881523134348022794">
                           <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="v8ee.~UIComponent_enabled_set" resolveInfo="enabled" />
                         </node>
                       </node>
@@ -4015,8 +4015,8 @@
                             <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="6919392641267809509" resolveInfo="bJumpTimes" />
                           </node>
                         </node>
-                        <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.InstanceSetterReference" typeId="3vt2.7094129454662758493" id="881523134348022220">
-                          <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="v8ee.~UIComponent_enabled_set" resolveInfo="enabled" />
+                        <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.DynamicAccessOperation" typeId="3vt2.4761904554586322129" id="881523134348022786">
+                          <property name="name" nameId="tpck.1169194664001" value="enabled" />
                         </node>
                       </node>
                       <node role="rightOperand" roleId="3vt2.426377380078250900" type="3vt2.DotExpression" typeId="3vt2.1237743601670" id="6919392641267808337">
@@ -4039,7 +4039,7 @@
                     <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="6919392641267787147" resolveInfo="bJumpFrom" />
                   </node>
                 </node>
-                <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.InstanceSetterReference" typeId="3vt2.7094129454662758493" id="881523134348022221">
+                <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.InstanceSetterReference" typeId="3vt2.7094129454662758493" id="881523134348022795">
                   <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="v8ee.~UIComponent_enabled_set" resolveInfo="enabled" />
                 </node>
               </node>
@@ -4404,8 +4404,8 @@
                     <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="3609635146798719736" resolveInfo="ui" />
                   </node>
                 </node>
-                <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.DynamicAccessOperation" typeId="3vt2.4761904554586322129" id="881523134348022211">
-                  <property name="name" nameId="tpck.1169194664001" value="enabled" />
+                <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.InstanceGetterReference" typeId="3vt2.3820276268350731927" id="881523134348022788">
+                  <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="v8ee.~UIComponent_enabled_get" resolveInfo="enabled" />
                 </node>
               </node>
             </node>
@@ -4686,8 +4686,8 @@
                       <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="1873476081216811549" resolveInfo="saveSWF" />
                     </node>
                   </node>
-                  <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.DynamicAccessOperation" typeId="3vt2.4761904554586322129" id="881523134348022212">
-                    <property name="name" nameId="tpck.1169194664001" value="enabled" />
+                  <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.InstanceGetterReference" typeId="3vt2.3820276268350731927" id="881523134348022789">
+                    <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="v8ee.~UIComponent_enabled_get" resolveInfo="enabled" />
                   </node>
                 </node>
               </node>
@@ -4697,8 +4697,8 @@
                     <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="3609635146798719736" resolveInfo="ui" />
                   </node>
                 </node>
-                <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.DynamicAccessOperation" typeId="3vt2.4761904554586322129" id="881523134348022213">
-                  <property name="name" nameId="tpck.1169194664001" value="enabled" />
+                <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.InstanceGetterReference" typeId="3vt2.3820276268350731927" id="881523134348022790">
+                  <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="v8ee.~UIComponent_enabled_get" resolveInfo="enabled" />
                 </node>
               </node>
             </node>
@@ -5442,8 +5442,8 @@
                     <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="5164862306785814745" resolveInfo="applyCornerOffsetButton" />
                   </node>
                 </node>
-                <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.DynamicAccessOperation" typeId="3vt2.4761904554586322129" id="881523134348022214">
-                  <property name="name" nameId="tpck.1169194664001" value="enabled" />
+                <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.InstanceGetterReference" typeId="3vt2.3820276268350731927" id="881523134348022791">
+                  <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="v8ee.~UIComponent_enabled_get" resolveInfo="enabled" />
                 </node>
               </node>
             </node>
