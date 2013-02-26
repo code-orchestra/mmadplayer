@@ -12,12 +12,11 @@
       <modulePath path="${project}/modules/SP1/SP1.msd" />
       <modulePath path="${project}/modules/SP1Player/SP1Player.msd" />
       <modulePath path="${project}/modules/TweenLite_swc/TweenLite_swc.msd" />
+      <modulePath path="${project}/modules/airglobal/airglobal.msd" />
       <modulePath path="${project}/modules/as3swf_swc/as3swf_swc.msd" />
       <modulePath path="${project}/modules/blooddy_crypto_swc/blooddy_crypto_swc.msd" />
       <modulePath path="${project}/modules/key_swc/key_swc.msd" />
       <modulePath path="${project}/modules/osmf_swc/osmf_swc.msd" />
-      <modulePath path="$PROJECT_DIR$/../mmdFFmpeg/modules/ffmpegConcole/ffmpegConcole.msd" />
-      <modulePath path="${project}/modules/airglobal/airglobal.msd" />
     </projectModules>
     <genConfs />
   </component>
@@ -26,15 +25,15 @@
   </component>
   <component name="ProjectRootManager" version="2" />
   <component name="ProjectRunConfigurationManager">
-    <configuration default="false" name="SP1Player" type="ActionScript" factoryName="ActionScriptRunConfiguration">
+    <configuration default="false" name="SP1" type="ActionScript" factoryName="ActionScriptRunConfiguration">
       <MyState />
       <myASRunSettings>
         <MyState>
-          <option name="moduleName" value="SP1Player" />
-          <option name="customFile" value="$PROJECT_DIR$/modules/SP1Player/output_swf/test.html" />
-          <option name="swfFile" value="$PROJECT_DIR$/modules/SP1Player/output_swf/SP1Player.swf" />
+          <option name="moduleName" value="SP1" />
+          <option name="customFile" value="" />
+          <option name="swfFile" value="$PROJECT_DIR$/modules/SP1/output_swf/movie.swf" />
           <option name="skipMake" value="false" />
-          <option name="useCustomFile" value="true" />
+          <option name="useCustomFile" value="false" />
           <option name="launcherType" value="0" />
           <option name="flashPlayerPath" value="" />
         </MyState>
@@ -45,15 +44,15 @@
       <ConfigurationWrapper RunnerId="Default Runner" />
       <method />
     </configuration>
-    <configuration default="false" name="SP1" type="ActionScript" factoryName="ActionScriptRunConfiguration">
+    <configuration default="false" name="SP1Player" type="ActionScript" factoryName="ActionScriptRunConfiguration">
       <MyState />
       <myASRunSettings>
         <MyState>
-          <option name="moduleName" value="SP1" />
-          <option name="customFile" value="" />
-          <option name="swfFile" value="$PROJECT_DIR$/modules/SP1/output_swf/movie.swf" />
+          <option name="moduleName" value="SP1Player" />
+          <option name="customFile" value="$PROJECT_DIR$/modules/SP1Player/output_swf/test.html" />
+          <option name="swfFile" value="$PROJECT_DIR$/modules/SP1Player/output_swf/SP1Player.swf" />
           <option name="skipMake" value="false" />
-          <option name="useCustomFile" value="false" />
+          <option name="useCustomFile" value="true" />
           <option name="launcherType" value="0" />
           <option name="flashPlayerPath" value="" />
         </MyState>

@@ -7,7 +7,7 @@
 </source-path>
 <library-path append="true">
 <path-element>/Users/makc/CodeOrchestraProjects/mmadplayer/modules/key_swc/key.swc</path-element>
-<path-element>/Applications/CodeOrchestra.app/flex_sdk/frameworks/libs/framework.swc</path-element>
+<path-element>/Users/makc/Downloads/flex_air_sdk_4_6/frameworks/libs/framework.swc</path-element>
 <path-element>/Users/makc/CodeOrchestraProjects/mmadplayer/modules/TweenLite_swc/TweenLite.swc</path-element>
 </library-path>
 <keep-as3-metadata>
