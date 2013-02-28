@@ -6,3 +6,4 @@ classes_gen/
 *.zip
 *.log
 .DS_Store
+/modules/SP1/SP1_flex_config.xml
