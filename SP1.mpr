@@ -25,6 +25,24 @@
   </component>
   <component name="ProjectRootManager" version="2" />
   <component name="ProjectRunConfigurationManager">
+    <configuration default="false" name="SP1" type="AIR" factoryName="AIR">
+      <MyState />
+      <myAIRRunSettings>
+        <MyState>
+          <option name="moduleName" value="SP1" />
+          <option name="launcherOptions" value="-profile extendedDesktop" />
+          <option name="programParameters" value="" />
+          <option name="descriptorPath" value="$PROJECT_DIR$/modules/SP1/output_swf/SP1-air-app.xml" />
+          <option name="rootDirectory" value="$PROJECT_DIR$/modules/SP1/output_swf" />
+          <option name="launcherType" value="1" />
+        </MyState>
+      </myAIRRunSettings>
+      <RunnerSettings RunnerId="Default Debug Runner" />
+      <RunnerSettings RunnerId="Default Runner" />
+      <ConfigurationWrapper RunnerId="Default Debug Runner" />
+      <ConfigurationWrapper RunnerId="Default Runner" />
+      <method />
+    </configuration>
     <configuration default="false" name="SP1Player" type="ActionScript" factoryName="ActionScriptRunConfiguration">
       <MyState />
       <myASRunSettings>
@@ -34,25 +52,6 @@
           <option name="swfFile" value="$PROJECT_DIR$/modules/SP1Player/output_swf/SP1Player.swf" />
           <option name="skipMake" value="false" />
           <option name="useCustomFile" value="true" />
-          <option name="launcherType" value="0" />
-          <option name="flashPlayerPath" value="" />
-        </MyState>
-      </myASRunSettings>
-      <RunnerSettings RunnerId="Default Debug Runner" />
-      <RunnerSettings RunnerId="Default Runner" />
-      <ConfigurationWrapper RunnerId="Default Debug Runner" />
-      <ConfigurationWrapper RunnerId="Default Runner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="SP1" type="ActionScript" factoryName="ActionScriptRunConfiguration">
-      <MyState />
-      <myASRunSettings>
-        <MyState>
-          <option name="moduleName" value="SP1" />
-          <option name="customFile" value="" />
-          <option name="swfFile" value="$PROJECT_DIR$/modules/SP1/output_swf/movie.swf" />
-          <option name="skipMake" value="false" />
-          <option name="useCustomFile" value="false" />
           <option name="launcherType" value="0" />
           <option name="flashPlayerPath" value="" />
         </MyState>
