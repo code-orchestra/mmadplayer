@@ -1096,8 +1096,22 @@
                     <node role="attributeName" roleId="n5iv.7177097079973321477" type="n5iv.MxmlAttributeName_property" typeId="n5iv.7177097079973321498" id="8387784158253035493">
                       <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="oovz.~ButtonBase_label_set" resolveInfo="label" />
                     </node>
-                    <node role="attributeValue" roleId="n5iv.3116912533766309537" type="n5iv.MxmlAttributeValue" typeId="n5iv.3116912533766394375" id="8387784158253035492">
-                      <property name="value" nameId="n5iv.7177097079973042526" value="&lt;??" />
+                    <node role="attributeValue" roleId="n5iv.3116912533766309537" type="n5iv.MxmlAttributeValue_bindable" typeId="n5iv.3079185003605659330" id="8693791745297336069">
+                      <node role="expression" roleId="n5iv.3079185003605659517" type="3vt2.DotExpression" typeId="3vt2.1237743601670" id="8693791745297336071">
+                        <node role="operand" roleId="3vt2.1242234170112" type="3vt2.ClassExpression" typeId="3vt2.1237741824320" id="8693791745297336070">
+                          <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="1k6w.~String" resolveInfo="String" />
+                        </node>
+                        <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.StaticMethodCallOperation" typeId="3vt2.7909581671864979853" id="8693791745297336075">
+                          <property name="isSelectableHackInited" nameId="3vt2.8308821870589059759" value="true" />
+                          <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="1k6w.~String_fromCharCode_s" resolveInfo="fromCharCode" />
+                          <node role="actualArgument" roleId="3vt2.2024767275314559281" type="3vt2.NumberConstant" typeId="3vt2.1241004516258" id="8693791745297336079">
+                            <property name="value" nameId="3vt2.1241004569844" value="8629" />
+                          </node>
+                          <node role="actualArgument" roleId="3vt2.2024767275314559281" type="3vt2.ActualArgumentInfo" typeId="3vt2.3898885818439022004" id="8693791745297336080">
+                            <node role="expression" roleId="3vt2.3898885818439022005" type="3vt2.ExpressionList" typeId="3vt2.2232984037991132640" id="8693791745297336081" />
+                          </node>
+                        </node>
+                      </node>
                     </node>
                   </node>
                   <node role="attributes" roleId="n5iv.2098153380267443984" type="n5iv.MxmlComponentAttributeParameter" typeId="n5iv.8148808055913312606" id="8387784158253038216">
