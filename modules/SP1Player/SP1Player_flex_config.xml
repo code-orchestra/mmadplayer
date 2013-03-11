@@ -1,5 +1,5 @@
 <flex-config xmlns="http://www.adobe.com/2006/flex-config">
-<target-player>11.0.0</target-player>
+<target-player>11.6.0</target-player>
 <compiler>
 <incremental>true</incremental>
 <source-path>
