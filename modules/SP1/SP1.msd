@@ -18,6 +18,7 @@
     <dependency reexport="false" exclude="false">playerglobal_swc</dependency>
     <dependency reexport="false" exclude="false">rpc_swc</dependency>
     <dependency reexport="false" exclude="false">spark_swc</dependency>
+    <dependency reexport="false" exclude="false">SP1</dependency>
   </dependencies>
   <usedLanguages>
     <usedLanguage>codeOrchestra.actionScript</usedLanguage>
