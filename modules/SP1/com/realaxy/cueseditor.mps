@@ -1776,7 +1776,7 @@
                   <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="oovz.~ButtonBase_label_set" resolveInfo="label" />
                 </node>
                 <node role="attributeValue" roleId="n5iv.3116912533766309537" type="n5iv.MxmlAttributeValue" typeId="n5iv.3116912533766394375" id="6506072617774817857">
-                  <property name="value" nameId="n5iv.7177097079973042526" value="Make gif" />
+                  <property name="value" nameId="n5iv.7177097079973042526" value="Make images for gif" />
                 </node>
               </node>
               <node role="attributes" roleId="n5iv.2098153380267443984" type="n5iv.MxmlComponentAttributeParameter" typeId="n5iv.8148808055913312606" id="6506072617774817956">
@@ -17616,6 +17616,26 @@
             </node>
           </node>
           <node role="statementBody" roleId="3vt2.1630592743144646085" type="3vt2.StatementList" typeId="3vt2.1237648173643" id="6506072617774833510">
+            <node role="statement" roleId="3vt2.1237648447990" type="3vt2.ExpressionStatement" typeId="3vt2.1241022302122" id="4093179130073518479">
+              <node role="expression" roleId="3vt2.1241022361052" type="3vt2.ExpressionList" typeId="3vt2.2232984037991132640" id="4093179130073518480">
+                <node role="expression" roleId="3vt2.2232984037991132641" type="3vt2.FunctionCall" typeId="3vt2.1630592743144641688" id="4093179130073518481">
+                  <property name="isSelectableHackInited" nameId="3vt2.8308821870589059759" value="true" />
+                  <node role="expression" roleId="3vt2.1630592743144641689" type="3vt2.OperationExpression" typeId="3vt2.8480212669356022860" id="4093179130073518482">
+                    <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.FieldReferenceOperation" typeId="3vt2.1242749624807" id="4093179130073518483">
+                      <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="6506072617774833020" resolveInfo="_gifCallback" />
+                    </node>
+                  </node>
+                  <node role="actualArgument" roleId="3vt2.2024767275314559281" type="3vt2.OperationExpression" typeId="3vt2.8480212669356022860" id="4093179130073518484">
+                    <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.FieldReferenceOperation" typeId="3vt2.1242749624807" id="4093179130073518485">
+                      <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="6506072617774833029" resolveInfo="_gifOutPath" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node role="statement" roleId="3vt2.1237648447990" type="3vt2.ReturnStatement" typeId="3vt2.3391459608350013428" id="1765118593839662718">
+              <node role="expression" roleId="3vt2.3391459608350013430" type="3vt2.ExpressionList" typeId="3vt2.2232984037991132640" id="1765118593839662719" />
+            </node>
             <node role="statement" roleId="3vt2.1237648447990" type="3vt2.IfStatement" typeId="3vt2.1630592743144674750" id="280945055085791419">
               <node role="condition" roleId="3vt2.1630592743144674752" type="3vt2.Condition" typeId="3vt2.1630592743144646077" id="280945055085791420">
                 <node role="expressionList" roleId="3vt2.7484592148249142370" type="3vt2.ExpressionList" typeId="3vt2.2232984037991132640" id="280945055085791421">
@@ -17663,23 +17683,7 @@
               </node>
               <node role="ifFalseStatement" roleId="3vt2.1630592743144674753" type="3vt2.BlockStatement" typeId="3vt2.1630592743144646094" id="4093179130073518488">
                 <node role="statementBody" roleId="3vt2.1630592743144646085" type="3vt2.StatementList" typeId="3vt2.1237648173643" id="4093179130073518489">
-                  <node role="statement" roleId="3vt2.1237648447990" type="3vt2.ExpressionStatement" typeId="3vt2.1241022302122" id="4093179130073518479">
-                    <node role="expression" roleId="3vt2.1241022361052" type="3vt2.ExpressionList" typeId="3vt2.2232984037991132640" id="4093179130073518480">
-                      <node role="expression" roleId="3vt2.2232984037991132641" type="3vt2.FunctionCall" typeId="3vt2.1630592743144641688" id="4093179130073518481">
-                        <property name="isSelectableHackInited" nameId="3vt2.8308821870589059759" value="true" />
-                        <node role="expression" roleId="3vt2.1630592743144641689" type="3vt2.OperationExpression" typeId="3vt2.8480212669356022860" id="4093179130073518482">
-                          <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.FieldReferenceOperation" typeId="3vt2.1242749624807" id="4093179130073518483">
-                            <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="6506072617774833020" resolveInfo="_gifCallback" />
-                          </node>
-                        </node>
-                        <node role="actualArgument" roleId="3vt2.2024767275314559281" type="3vt2.OperationExpression" typeId="3vt2.8480212669356022860" id="4093179130073518484">
-                          <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.FieldReferenceOperation" typeId="3vt2.1242749624807" id="4093179130073518485">
-                            <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="6506072617774833029" resolveInfo="_gifOutPath" />
-                          </node>
-                        </node>
-                      </node>
-                    </node>
-                  </node>
+                  <node role="statement" roleId="3vt2.1237648447990" type="3vt2.Statement" typeId="3vt2.1237648130608" id="1765118593839662716" />
                 </node>
               </node>
             </node>
