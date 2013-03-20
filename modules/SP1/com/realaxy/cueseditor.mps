@@ -1334,7 +1334,7 @@
                       <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="oovz.~TextBase_text_set" resolveInfo="text" />
                     </node>
                     <node role="attributeValue" roleId="n5iv.3116912533766309537" type="n5iv.MxmlAttributeValue" typeId="n5iv.3116912533766394375" id="6370321919416422167">
-                      <property name="value" nameId="n5iv.7177097079973042526" value="Offset, 0.1s:" />
+                      <property name="value" nameId="n5iv.7177097079973042526" value="Offset, 0.01s:" />
                     </node>
                   </node>
                   <node role="componentName" roleId="n5iv.2098153380267443983" type="n5iv.MxmlComponentName" typeId="n5iv.8148808055913336968" id="6370321919416422158">
@@ -4813,7 +4813,7 @@
                 <node role="initializer" roleId="3vt2.4314941672269388208" type="3vt2.PlusExpression" typeId="3vt2.1630592743144887854" id="6370321919416478988">
                   <node role="rightOperand" roleId="3vt2.426377380078250900" type="3vt2.MultiplyExpression" typeId="3vt2.1630592743144887836" id="6370321919416478992">
                     <node role="leftOperand" roleId="3vt2.426377380078249176" type="3vt2.NumberConstant" typeId="3vt2.1241004516258" id="6370321919416478991">
-                      <property name="value" nameId="3vt2.1241004569844" value="100" />
+                      <property name="value" nameId="3vt2.1241004569844" value="10" />
                     </node>
                     <node role="rightOperand" roleId="3vt2.426377380078250900" type="3vt2.DotExpression" typeId="3vt2.1237743601670" id="6370321919416481670">
                       <node role="operand" roleId="3vt2.1242234170112" type="3vt2.OperationExpression" typeId="3vt2.8480212669356022860" id="6370321919416481663">
