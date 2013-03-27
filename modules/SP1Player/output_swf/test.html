@@ -6,8 +6,20 @@
 		<title>index</title>
 	
 		<script>
+			function onExercise (blocks) {
+				console.log ("starting exercise, blocks:", blocks);
+			}
+			
 			function onKeyDown () {
-				console.log (arguments);
+				console.log ("key down:", arguments);
+			}
+			
+			function onNewBlock () {
+				console.log ("new block:", arguments);
+			}
+			
+			function onExerciseComplete () {
+				console.log("done:", arguments);
 			}
 		</script>
 		

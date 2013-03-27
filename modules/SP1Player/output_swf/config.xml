@@ -1,6 +1,5 @@
 <config>
 <map>keymap.xml</map>
 <url0 className="MCPlayer">whitebird.swf</url0>
-<url className="MCKeyboardExercisePlayer">generated01.swf</url>
-<url className="MCKeyboardExercisePlayer">generated03.swf</url>
+<url className="MCKeyboardExercisePlayer">generated.swf</url>
 </config>

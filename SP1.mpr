@@ -50,6 +50,7 @@
           <option name="moduleName" value="SP1Player" />
           <option name="customFile" value="$PROJECT_DIR$/modules/SP1Player/output_swf/test.html" />
           <option name="swfFile" value="$PROJECT_DIR$/modules/SP1Player/output_swf/SP1Player.swf" />
+          <option name="webAddress" value="" />
           <option name="skipMake" value="false" />
           <option name="useCustomFile" value="true" />
           <option name="launcherType" value="0" />
