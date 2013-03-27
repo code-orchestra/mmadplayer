@@ -6,16 +6,51 @@
 		<title>index</title>
 	
 		<script>
-			function onExercise (blocks) {
-				console.log ("starting exercise, blocks:", blocks);
+			function onExercise () {
+				console.log ("starting exercise, blocks:", arguments);
 			}
 			
 			function onKeyDown () {
 				console.log ("key down:", arguments);
 			}
 			
-			function onNewBlock () {
-				console.log ("new block:", arguments);
+			function onNewBlock (parts, partsShort) {
+				console.log (parts, partsShort)
+				// join the characters
+				var html = "";
+				for (var i = 0; i < parts.length; i++) {
+					var part = parts [i];
+					
+					if ((part.length == 7) && (part.indexOf("SHIFT") == 0)) {
+						// SHIFT 1..0 special case
+						part = partsShort [i];
+					}
+					
+					var character = "";
+					if (part.length == 1) {
+						// lowercase text
+						character = part.toLowerCase();
+					} else if ((part.length == 7) && (part.indexOf("SHIFT") == 0)) {
+						// uppercase text
+						character = part.substr (-1);
+					}
+					
+					if (character.length > 0) {
+						html += "<span class='char'>" + character + "</span>"
+					} else {
+						// could be mapped to images here
+						if (part == "TAB") {
+							html += "<img src='http://4v4.com/images/keys/key_tab.gif' hspace='10' />";
+						} else {
+							// misc keys
+							html += ", " + partsShort [i] + " ";
+						}
+					}
+				}
+				
+				if (html.indexOf(", ") == 0) html = html.substr(2);
+				
+				document.getElementById("block").innerHTML = html;
 			}
 			
 			function onExerciseComplete () {
@@ -25,13 +60,16 @@
 		
 		<style type="text/css" media="screen">
 			body { background-color:#222;margin:0;}
+			#block { color:#FFFFFF;}
+			.char { color:#007FFF;}
 		</style>	
 		
 	</head>
 
 	<body>
-	
-	      <object type="application/x-shockwave-flash" data="SP1Player.swf" width="600" height="400">
+		
+	      <div id="block"></div>
+	      <object type="application/x-shockwave-flash" data="SP1Player.swf" width="1000" height="800">
                     <param name="quality" value="high" />
                     <param name="bgcolor" value="#222222" />
                     <param name="allowScriptAccess" value="sameDomain" />

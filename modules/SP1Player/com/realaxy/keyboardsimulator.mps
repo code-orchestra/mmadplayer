@@ -5164,9 +5164,21 @@
                       <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.InstanceMethodCallOperation" typeId="3vt2.1242232929257" id="761296183531796218">
                         <property name="isSelectableHackInited" nameId="3vt2.8308821870589059759" value="true" />
                         <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="1k6w.~Array_push" resolveInfo="push" />
-                        <node role="actualArgument" roleId="3vt2.2024767275314559281" type="3vt2.OperationExpression" typeId="3vt2.8480212669356022860" id="761296183531796222">
-                          <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.LocalVariableReference" typeId="3vt2.1237729706994" id="761296183531796223">
-                            <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="6474870797546548175" resolveInfo="s" />
+                        <node role="actualArgument" roleId="3vt2.2024767275314559281" type="3vt2.DotExpression" typeId="3vt2.1237743601670" id="761296183532034202">
+                          <node role="operand" roleId="3vt2.1242234170112" type="3vt2.OperationExpression" typeId="3vt2.8480212669356022860" id="761296183531796222">
+                            <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.LocalVariableReference" typeId="3vt2.1237729706994" id="761296183531796223">
+                              <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="6474870797546548175" resolveInfo="s" />
+                            </node>
+                          </node>
+                          <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.InstanceMethodCallOperation" typeId="3vt2.1242232929257" id="761296183532034206">
+                            <property name="isSelectableHackInited" nameId="3vt2.8308821870589059759" value="true" />
+                            <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="1k6w.~String_split" resolveInfo="split" />
+                            <node role="actualArgument" roleId="3vt2.2024767275314559281" type="3vt2.StringLiteral" typeId="3vt2.1630592743144682613" id="761296183532034210">
+                              <property name="value" nameId="3vt2.3383382943159949640" value=", " />
+                            </node>
+                            <node role="actualArgument" roleId="3vt2.2024767275314559281" type="3vt2.ActualArgumentInfo" typeId="3vt2.3898885818439022004" id="761296183532034211">
+                              <node role="expression" roleId="3vt2.3898885818439022005" type="3vt2.ExpressionList" typeId="3vt2.2232984037991132640" id="761296183532034212" />
+                            </node>
                           </node>
                         </node>
                         <node role="actualArgument" roleId="3vt2.2024767275314559281" type="3vt2.ActualArgumentInfo" typeId="3vt2.3898885818439022004" id="761296183531796224">
@@ -5297,6 +5309,101 @@
             </node>
           </node>
         </node>
+        <node role="statement" roleId="3vt2.1237648447990" type="3vt2.Statement" typeId="3vt2.1237648130608" id="761296183531969625" />
+        <node role="statement" roleId="3vt2.1237648447990" type="3vt2.LocalVariableDeclarationStatement" typeId="3vt2.4231115217454705792" id="761296183531969627">
+          <property name="isVerticalLayout" nameId="3vt2.8284300288290314122" value="true" />
+          <node role="localVariableDeclaration" roleId="3vt2.4231115217454705796" type="3vt2.LocalVariableDeclaration" typeId="3vt2.1241453544092" id="761296183531969628">
+            <property name="name" nameId="tpck.1169194664001" value="shortPresentations" />
+            <node role="type" roleId="3vt2.1238708772985" type="3vt2.ClassifierType" typeId="3vt2.1237649696613" id="761296183531969630">
+              <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="1k6w.~Array" resolveInfo="Array" />
+            </node>
+            <node role="initializer" roleId="3vt2.4314941672269388208" type="3vt2.ArrayLiteral" typeId="3vt2.7078864938167502030" id="761296183532002114" />
+          </node>
+        </node>
+        <node role="statement" roleId="3vt2.1237648447990" type="3vt2.ForStatement" typeId="3vt2.1630592743144675237" id="761296183531969635">
+          <node role="iteration" roleId="3vt2.1630592743144675241" type="3vt2.ExpressionList" typeId="3vt2.2232984037991132640" id="761296183531969638">
+            <node role="expression" roleId="3vt2.2232984037991132641" type="3vt2.PostfixIncrementExpression" typeId="3vt2.1237743859726" id="761296183531969639">
+              <node role="nodeToWrap" roleId="3vt2.3506624847270439100" type="3vt2.OperationExpression" typeId="3vt2.8480212669356022860" id="761296183531969640">
+                <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.LocalVariableReference" typeId="3vt2.1237729706994" id="761296183531969686">
+                  <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="6474870797546547920" resolveInfo="i" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node role="condition" roleId="3vt2.1630592743144675240" type="3vt2.Condition" typeId="3vt2.1630592743144646077" id="761296183531969642">
+            <node role="expressionList" roleId="3vt2.7484592148249142370" type="3vt2.ExpressionList" typeId="3vt2.2232984037991132640" id="761296183531969643">
+              <node role="expression" roleId="3vt2.2232984037991132641" type="3vt2.LessThanExpression" typeId="3vt2.1630592743144887937" id="761296183531969644">
+                <node role="rightOperand" roleId="3vt2.426377380078250900" type="3vt2.DotExpression" typeId="3vt2.1237743601670" id="761296183531969668">
+                  <node role="operand" roleId="3vt2.1242234170112" type="3vt2.OperationExpression" typeId="3vt2.8480212669356022860" id="761296183531969661">
+                    <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.LocalVariableReference" typeId="3vt2.1237729706994" id="761296183531969662">
+                      <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="761296183531796204" resolveInfo="blocksForJS" />
+                    </node>
+                  </node>
+                  <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.InstanceGetterReference" typeId="3vt2.3820276268350731927" id="761296183531969678">
+                    <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="1k6w.~Array_length_get" resolveInfo="length" />
+                  </node>
+                </node>
+                <node role="leftOperand" roleId="3vt2.426377380078249176" type="3vt2.OperationExpression" typeId="3vt2.8480212669356022860" id="761296183531969646">
+                  <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.LocalVariableReference" typeId="3vt2.1237729706994" id="761296183531969660">
+                    <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="6474870797546547920" resolveInfo="i" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node role="statementBody" roleId="3vt2.1630592743144646085" type="3vt2.StatementList" typeId="3vt2.1237648173643" id="761296183531969648">
+            <node role="statement" roleId="3vt2.1237648447990" type="3vt2.ExpressionStatement" typeId="3vt2.1241022302122" id="761296183531969688">
+              <node role="expression" roleId="3vt2.1241022361052" type="3vt2.ExpressionList" typeId="3vt2.2232984037991132640" id="761296183531969689">
+                <node role="expression" roleId="3vt2.2232984037991132641" type="3vt2.AssignmentExpression" typeId="3vt2.1237753163044" id="761296183531969861">
+                  <node role="rightOperand" roleId="3vt2.426377380078250900" type="3vt2.OperationExpression" typeId="3vt2.8480212669356022860" id="761296183531969864">
+                    <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.InstanceMethodCallOperation" typeId="3vt2.1242232929257" id="761296183531969865">
+                      <property name="isSelectableHackInited" nameId="3vt2.8308821870589059759" value="true" />
+                      <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="761296183531969750" resolveInfo="blockShortPresentation" />
+                      <node role="actualArgument" roleId="3vt2.2024767275314559281" type="3vt2.AccessExpression" typeId="3vt2.7078864938167502023" id="761296183531969871">
+                        <node role="access" roleId="3vt2.7078864938167502025" type="3vt2.OperationExpression" typeId="3vt2.8480212669356022860" id="761296183531969874">
+                          <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.LocalVariableReference" typeId="3vt2.1237729706994" id="761296183531969875">
+                            <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="6474870797546547920" resolveInfo="i" />
+                          </node>
+                        </node>
+                        <node role="expression" roleId="3vt2.7078864938167502024" type="3vt2.OperationExpression" typeId="3vt2.8480212669356022860" id="761296183531969869">
+                          <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.LocalVariableReference" typeId="3vt2.1237729706994" id="761296183531969870">
+                            <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="761296183531796204" resolveInfo="blocksForJS" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node role="leftOperand" roleId="3vt2.426377380078249176" type="3vt2.AccessExpression" typeId="3vt2.7078864938167502023" id="761296183531969692">
+                    <node role="access" roleId="3vt2.7078864938167502025" type="3vt2.OperationExpression" typeId="3vt2.8480212669356022860" id="761296183531969695">
+                      <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.LocalVariableReference" typeId="3vt2.1237729706994" id="761296183531969696">
+                        <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="6474870797546547920" resolveInfo="i" />
+                      </node>
+                    </node>
+                    <node role="expression" roleId="3vt2.7078864938167502024" type="3vt2.OperationExpression" typeId="3vt2.8480212669356022860" id="761296183531969690">
+                      <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.LocalVariableReference" typeId="3vt2.1237729706994" id="761296183531969691">
+                        <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="761296183531969628" resolveInfo="shortPresentations" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node role="initializer" roleId="3vt2.8569999638801863238" type="3vt2.ForInitialiser_Expression" typeId="3vt2.8764578276937378711" id="761296183531969652">
+            <node role="expression" roleId="3vt2.8764578276937378713" type="3vt2.ExpressionList" typeId="3vt2.2232984037991132640" id="761296183531969653">
+              <node role="expression" roleId="3vt2.2232984037991132641" type="3vt2.AssignmentExpression" typeId="3vt2.1237753163044" id="761296183531969656">
+                <node role="rightOperand" roleId="3vt2.426377380078250900" type="3vt2.NumberConstant" typeId="3vt2.1241004516258" id="761296183531969659">
+                  <property name="value" nameId="3vt2.1241004569844" value="0" />
+                </node>
+                <node role="leftOperand" roleId="3vt2.426377380078249176" type="3vt2.OperationExpression" typeId="3vt2.8480212669356022860" id="761296183531969654">
+                  <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.LocalVariableReference" typeId="3vt2.1237729706994" id="761296183531969655">
+                    <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="6474870797546547920" resolveInfo="i" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node role="statement" roleId="3vt2.1237648447990" type="3vt2.Statement" typeId="3vt2.1237648130608" id="761296183531796230" />
         <node role="statement" roleId="3vt2.1237648447990" type="3vt2.ExpressionStatement" typeId="3vt2.1241022302122" id="761296183531796237">
           <node role="expression" roleId="3vt2.1241022361052" type="3vt2.ExpressionList" typeId="3vt2.2232984037991132640" id="761296183531796238">
@@ -5324,8 +5431,25 @@
                     </node>
                   </node>
                 </node>
-                <node role="actualArgument" roleId="3vt2.2024767275314559281" type="3vt2.ActualArgumentInfo" typeId="3vt2.3898885818439022004" id="761296183531882019">
-                  <node role="expression" roleId="3vt2.3898885818439022005" type="3vt2.ExpressionList" typeId="3vt2.2232984037991132640" id="761296183531882020" />
+                <node role="actualArgument" roleId="3vt2.2024767275314559281" type="3vt2.DotExpression" typeId="3vt2.1237743601670" id="761296183531969879">
+                  <node role="operand" roleId="3vt2.1242234170112" type="3vt2.ClassExpression" typeId="3vt2.1237741824320" id="761296183531969876">
+                    <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="1k6w.~JSON" resolveInfo="JSON" />
+                  </node>
+                  <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.StaticMethodCallOperation" typeId="3vt2.7909581671864979853" id="761296183531969883">
+                    <property name="isSelectableHackInited" nameId="3vt2.8308821870589059759" value="true" />
+                    <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="1k6w.~JSON_stringify_s" resolveInfo="stringify" />
+                    <node role="actualArgument" roleId="3vt2.2024767275314559281" type="3vt2.OperationExpression" typeId="3vt2.8480212669356022860" id="761296183531969887">
+                      <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.LocalVariableReference" typeId="3vt2.1237729706994" id="761296183531969888">
+                        <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="761296183531969628" resolveInfo="shortPresentations" />
+                      </node>
+                    </node>
+                    <node role="actualArgument" roleId="3vt2.2024767275314559281" type="3vt2.ActualArgumentInfo" typeId="3vt2.3898885818439022004" id="761296183531969889">
+                      <node role="expression" roleId="3vt2.3898885818439022005" type="3vt2.ExpressionList" typeId="3vt2.2232984037991132640" id="761296183531969890" />
+                    </node>
+                  </node>
+                </node>
+                <node role="actualArgument" roleId="3vt2.2024767275314559281" type="3vt2.ActualArgumentInfo" typeId="3vt2.3898885818439022004" id="761296183531969877">
+                  <node role="expression" roleId="3vt2.3898885818439022005" type="3vt2.ExpressionList" typeId="3vt2.2232984037991132640" id="761296183531969878" />
                 </node>
               </node>
             </node>
@@ -5608,6 +5732,115 @@
         <property name="name" nameId="tpck.1169194664001" value="rest" />
         <node role="type" roleId="3vt2.1238708772985" type="3vt2.DynamicClassifierType" typeId="3vt2.7565340792440686856" id="8184315180683338880" />
       </node>
+    </node>
+    <node role="method" roleId="3vt2.1238599729748" type="3vt2.InstanceMethodDeclaration" typeId="3vt2.1237644241500" id="761296183531969750">
+      <property name="name" nameId="tpck.1169194664001" value="blockShortPresentation" />
+      <node role="body" roleId="3vt2.3618339097803723486" type="3vt2.StatementList" typeId="3vt2.1237648173643" id="761296183531969751">
+        <node role="statement" roleId="3vt2.1237648447990" type="3vt2.ForStatement" typeId="3vt2.1630592743144675237" id="761296183531969780">
+          <node role="initializer" roleId="3vt2.8569999638801863238" type="3vt2.ForInitialiser_Variable" typeId="3vt2.8764578276937376056" id="761296183531969777">
+            <node role="variableDeclaration" roleId="3vt2.8764578276937376669" type="3vt2.LocalVariableDeclaration" typeId="3vt2.1241453544092" id="761296183531969779">
+              <property name="name" nameId="tpck.1169194664001" value="i" />
+              <node role="type" roleId="3vt2.1238708772985" type="3vt2.ClassifierType" typeId="3vt2.1237649696613" id="761296183531969781">
+                <property name="name" nameId="tpck.1169194664001" value="int" />
+                <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="1k6w.~int" resolveInfo="int" />
+              </node>
+              <node role="initializer" roleId="3vt2.4314941672269388208" type="3vt2.NumberConstant" typeId="3vt2.1241004516258" id="761296183531969782">
+                <property name="value" nameId="3vt2.1241004569844" value="0" />
+              </node>
+            </node>
+          </node>
+          <node role="iteration" roleId="3vt2.1630592743144675241" type="3vt2.ExpressionList" typeId="3vt2.2232984037991132640" id="761296183531969783">
+            <node role="expression" roleId="3vt2.2232984037991132641" type="3vt2.PostfixIncrementExpression" typeId="3vt2.1237743859726" id="761296183531969784">
+              <node role="nodeToWrap" roleId="3vt2.3506624847270439100" type="3vt2.OperationExpression" typeId="3vt2.8480212669356022860" id="761296183531969785">
+                <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.LocalVariableReference" typeId="3vt2.1237729706994" id="761296183531969786">
+                  <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="761296183531969779" resolveInfo="i" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node role="condition" roleId="3vt2.1630592743144675240" type="3vt2.Condition" typeId="3vt2.1630592743144646077" id="761296183531969787">
+            <node role="expressionList" roleId="3vt2.7484592148249142370" type="3vt2.ExpressionList" typeId="3vt2.2232984037991132640" id="761296183531969788">
+              <node role="expression" roleId="3vt2.2232984037991132641" type="3vt2.LessThanExpression" typeId="3vt2.1630592743144887937" id="761296183531969789">
+                <node role="rightOperand" roleId="3vt2.426377380078250900" type="3vt2.DotExpression" typeId="3vt2.1237743601670" id="761296183531969802">
+                  <node role="operand" roleId="3vt2.1242234170112" type="3vt2.OperationExpression" typeId="3vt2.8480212669356022860" id="761296183531969795">
+                    <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.ParameterReference" typeId="3vt2.1237729727368" id="761296183532034232">
+                      <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="761296183531969755" resolveInfo="parts" />
+                    </node>
+                  </node>
+                  <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.InstanceGetterReference" typeId="3vt2.3820276268350731927" id="761296183532034249">
+                    <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="1k6w.~Array_length_get" resolveInfo="length" />
+                  </node>
+                </node>
+                <node role="leftOperand" roleId="3vt2.426377380078249176" type="3vt2.OperationExpression" typeId="3vt2.8480212669356022860" id="761296183531969791">
+                  <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.LocalVariableReference" typeId="3vt2.1237729706994" id="761296183531969792">
+                    <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="761296183531969779" resolveInfo="i" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node role="statementBody" roleId="3vt2.1630592743144646085" type="3vt2.StatementList" typeId="3vt2.1237648173643" id="761296183531969793">
+            <node role="statement" roleId="3vt2.1237648447990" type="3vt2.ExpressionStatement" typeId="3vt2.1241022302122" id="761296183531969826">
+              <node role="expression" roleId="3vt2.1241022361052" type="3vt2.ExpressionList" typeId="3vt2.2232984037991132640" id="761296183531969827">
+                <node role="expression" roleId="3vt2.2232984037991132641" type="3vt2.AssignmentExpression" typeId="3vt2.1237753163044" id="761296183531969835">
+                  <node role="rightOperand" roleId="3vt2.426377380078250900" type="3vt2.DotExpression" typeId="3vt2.1237743601670" id="761296183531969839">
+                    <node role="operand" roleId="3vt2.1242234170112" type="3vt2.ClassExpression" typeId="3vt2.1237741824320" id="761296183531969838">
+                      <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="6851891929937766462" resolveInfo="KeyStroke" />
+                    </node>
+                    <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.StaticMethodCallOperation" typeId="3vt2.7909581671864979853" id="761296183531969843">
+                      <property name="isSelectableHackInited" nameId="3vt2.8308821870589059759" value="true" />
+                      <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="4385635661004682089" resolveInfo="shorterPresentation" />
+                      <node role="actualArgument" roleId="3vt2.2024767275314559281" type="3vt2.AccessExpression" typeId="3vt2.7078864938167502023" id="761296183531969849">
+                        <node role="access" roleId="3vt2.7078864938167502025" type="3vt2.OperationExpression" typeId="3vt2.8480212669356022860" id="761296183531969852">
+                          <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.LocalVariableReference" typeId="3vt2.1237729706994" id="761296183531969853">
+                            <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="761296183531969779" resolveInfo="i" />
+                          </node>
+                        </node>
+                        <node role="expression" roleId="3vt2.7078864938167502024" type="3vt2.OperationExpression" typeId="3vt2.8480212669356022860" id="761296183531969847">
+                          <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.ParameterReference" typeId="3vt2.1237729727368" id="761296183532034233">
+                            <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="761296183531969755" resolveInfo="parts" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node role="leftOperand" roleId="3vt2.426377380078249176" type="3vt2.AccessExpression" typeId="3vt2.7078864938167502023" id="761296183531969830">
+                    <node role="access" roleId="3vt2.7078864938167502025" type="3vt2.OperationExpression" typeId="3vt2.8480212669356022860" id="761296183531969833">
+                      <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.LocalVariableReference" typeId="3vt2.1237729706994" id="761296183531969834">
+                        <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="761296183531969779" resolveInfo="i" />
+                      </node>
+                    </node>
+                    <node role="expression" roleId="3vt2.7078864938167502024" type="3vt2.OperationExpression" typeId="3vt2.8480212669356022860" id="761296183531969828">
+                      <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.ParameterReference" typeId="3vt2.1237729727368" id="761296183532034234">
+                        <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="761296183531969755" resolveInfo="parts" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="statement" roleId="3vt2.1237648447990" type="3vt2.ReturnStatement" typeId="3vt2.3391459608350013428" id="761296183531969855">
+          <node role="expression" roleId="3vt2.3391459608350013430" type="3vt2.ExpressionList" typeId="3vt2.2232984037991132640" id="761296183531969856">
+            <node role="expression" roleId="3vt2.2232984037991132641" type="3vt2.OperationExpression" typeId="3vt2.8480212669356022860" id="761296183531969858">
+              <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.ParameterReference" typeId="3vt2.1237729727368" id="761296183532034235">
+                <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="761296183531969755" resolveInfo="parts" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="returnType" roleId="3vt2.3618339097803723484" type="3vt2.ClassifierType" typeId="3vt2.1237649696613" id="761296183531969857">
+        <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="1k6w.~Array" resolveInfo="Array" />
+      </node>
+      <node role="parameter" roleId="3vt2.3618339097803723485" type="3vt2.ParameterDeclaration" typeId="3vt2.1238615317973" id="761296183531969755">
+        <property name="name" nameId="tpck.1169194664001" value="parts" />
+        <node role="type" roleId="3vt2.1238708772985" type="3vt2.ClassifierType" typeId="3vt2.1237649696613" id="761296183532034220">
+          <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="1k6w.~Array" resolveInfo="Array" />
+        </node>
+      </node>
+      <node role="visibility" roleId="3vt2.1238599591623" type="3vt2.PrivateVisibility" typeId="3vt2.1237671687576" id="761296183531969860" />
     </node>
     <node role="method" roleId="3vt2.1238599729748" type="3vt2.InstanceMethodDeclaration" typeId="3vt2.1237644241500" id="9134260850497365298">
       <property name="name" nameId="tpck.1169194664001" value="onKeyDown" />
@@ -6591,6 +6824,37 @@
                 </node>
               </node>
               <node role="statementBody" roleId="3vt2.1630592743144646085" type="3vt2.StatementList" typeId="3vt2.1237648173643" id="9134260850497368105">
+                <node role="statement" roleId="3vt2.1237648447990" type="3vt2.LocalVariableDeclarationStatement" typeId="3vt2.4231115217454705792" id="761296183532066347">
+                  <property name="isVerticalLayout" nameId="3vt2.8284300288290314122" value="true" />
+                  <node role="localVariableDeclaration" roleId="3vt2.4231115217454705796" type="3vt2.LocalVariableDeclaration" typeId="3vt2.1241453544092" id="761296183532066348">
+                    <property name="name" nameId="tpck.1169194664001" value="block" />
+                    <node role="type" roleId="3vt2.1238708772985" type="3vt2.ClassifierType" typeId="3vt2.1237649696613" id="761296183532066350">
+                      <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="1k6w.~Array" resolveInfo="Array" />
+                    </node>
+                    <node role="initializer" roleId="3vt2.4314941672269388208" type="3vt2.DotExpression" typeId="3vt2.1237743601670" id="761296183532066359">
+                      <node role="operand" roleId="3vt2.1242234170112" type="3vt2.DotExpression" typeId="3vt2.1237743601670" id="761296183532066354">
+                        <node role="operand" roleId="3vt2.1242234170112" type="3vt2.OperationExpression" typeId="3vt2.8480212669356022860" id="761296183532066352">
+                          <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.LocalVariableReference" typeId="3vt2.1237729706994" id="761296183532066353">
+                            <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="9134260850497368091" resolveInfo="keystroke" />
+                          </node>
+                        </node>
+                        <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.FieldReferenceOperation" typeId="3vt2.1242749624807" id="761296183532066358">
+                          <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="6851891929937768254" resolveInfo="block" />
+                        </node>
+                      </node>
+                      <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.InstanceMethodCallOperation" typeId="3vt2.1242232929257" id="761296183532066363">
+                        <property name="isSelectableHackInited" nameId="3vt2.8308821870589059759" value="true" />
+                        <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="1k6w.~String_split" resolveInfo="split" />
+                        <node role="actualArgument" roleId="3vt2.2024767275314559281" type="3vt2.StringLiteral" typeId="3vt2.1630592743144682613" id="761296183532066367">
+                          <property name="value" nameId="3vt2.3383382943159949640" value=", " />
+                        </node>
+                        <node role="actualArgument" roleId="3vt2.2024767275314559281" type="3vt2.ActualArgumentInfo" typeId="3vt2.3898885818439022004" id="761296183532066368">
+                          <node role="expression" roleId="3vt2.3898885818439022005" type="3vt2.ExpressionList" typeId="3vt2.2232984037991132640" id="761296183532066369" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
                 <node role="statement" roleId="3vt2.1237648447990" type="3vt2.ExpressionStatement" typeId="3vt2.1241022302122" id="761296183531796250">
                   <node role="expression" roleId="3vt2.1241022361052" type="3vt2.ExpressionList" typeId="3vt2.2232984037991132640" id="761296183531796251">
                     <node role="expression" roleId="3vt2.2232984037991132641" type="3vt2.OperationExpression" typeId="3vt2.8480212669356022860" id="761296183531796252">
@@ -6607,14 +6871,9 @@
                           <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.StaticMethodCallOperation" typeId="3vt2.7909581671864979853" id="761296183531913842">
                             <property name="isSelectableHackInited" nameId="3vt2.8308821870589059759" value="true" />
                             <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="1k6w.~JSON_stringify_s" resolveInfo="stringify" />
-                            <node role="actualArgument" roleId="3vt2.2024767275314559281" type="3vt2.DotExpression" typeId="3vt2.1237743601670" id="761296183531796264">
-                              <node role="operand" roleId="3vt2.1242234170112" type="3vt2.OperationExpression" typeId="3vt2.8480212669356022860" id="761296183531796260">
-                                <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.LocalVariableReference" typeId="3vt2.1237729706994" id="761296183531796261">
-                                  <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="9134260850497368091" resolveInfo="keystroke" />
-                                </node>
-                              </node>
-                              <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.FieldReferenceOperation" typeId="3vt2.1242749624807" id="761296183531796268">
-                                <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="6851891929937768254" resolveInfo="block" />
+                            <node role="actualArgument" roleId="3vt2.2024767275314559281" type="3vt2.OperationExpression" typeId="3vt2.8480212669356022860" id="761296183532066371">
+                              <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.LocalVariableReference" typeId="3vt2.1237729706994" id="761296183532066372">
+                                <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="761296183532066348" resolveInfo="block" />
                               </node>
                             </node>
                             <node role="actualArgument" roleId="3vt2.2024767275314559281" type="3vt2.ActualArgumentInfo" typeId="3vt2.3898885818439022004" id="761296183531913843">
@@ -6622,8 +6881,31 @@
                             </node>
                           </node>
                         </node>
-                        <node role="actualArgument" roleId="3vt2.2024767275314559281" type="3vt2.ActualArgumentInfo" typeId="3vt2.3898885818439022004" id="761296183531913840">
-                          <node role="expression" roleId="3vt2.3898885818439022005" type="3vt2.ExpressionList" typeId="3vt2.2232984037991132640" id="761296183531913841" />
+                        <node role="actualArgument" roleId="3vt2.2024767275314559281" type="3vt2.DotExpression" typeId="3vt2.1237743601670" id="761296183531969894">
+                          <node role="operand" roleId="3vt2.1242234170112" type="3vt2.ClassExpression" typeId="3vt2.1237741824320" id="761296183531969893">
+                            <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="1k6w.~JSON" resolveInfo="JSON" />
+                          </node>
+                          <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.StaticMethodCallOperation" typeId="3vt2.7909581671864979853" id="761296183531969898">
+                            <property name="isSelectableHackInited" nameId="3vt2.8308821870589059759" value="true" />
+                            <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="1k6w.~JSON_stringify_s" resolveInfo="stringify" />
+                            <node role="actualArgument" roleId="3vt2.2024767275314559281" type="3vt2.OperationExpression" typeId="3vt2.8480212669356022860" id="761296183531969904">
+                              <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.InstanceMethodCallOperation" typeId="3vt2.1242232929257" id="761296183531969905">
+                                <property name="isSelectableHackInited" nameId="3vt2.8308821870589059759" value="true" />
+                                <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="761296183531969750" resolveInfo="blockShortPresentation" />
+                                <node role="actualArgument" roleId="3vt2.2024767275314559281" type="3vt2.OperationExpression" typeId="3vt2.8480212669356022860" id="761296183532066374">
+                                  <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.LocalVariableReference" typeId="3vt2.1237729706994" id="761296183532066375">
+                                    <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="761296183532066348" resolveInfo="block" />
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                            <node role="actualArgument" roleId="3vt2.2024767275314559281" type="3vt2.ActualArgumentInfo" typeId="3vt2.3898885818439022004" id="761296183531969908">
+                              <node role="expression" roleId="3vt2.3898885818439022005" type="3vt2.ExpressionList" typeId="3vt2.2232984037991132640" id="761296183531969909" />
+                            </node>
+                          </node>
+                        </node>
+                        <node role="actualArgument" roleId="3vt2.2024767275314559281" type="3vt2.ActualArgumentInfo" typeId="3vt2.3898885818439022004" id="761296183531969901">
+                          <node role="expression" roleId="3vt2.3898885818439022005" type="3vt2.ExpressionList" typeId="3vt2.2232984037991132640" id="761296183531969902" />
                         </node>
                       </node>
                     </node>
