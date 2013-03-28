@@ -12,6 +12,11 @@
 			
 			function onKeyDown () {
 				console.log ("key down:", arguments);
+				
+				var command = arguments[0].socketCommand;
+				if (command) {
+					document.getElementById("live").incomingData(command);
+				}
 			}
 			
 			function onNewBlock (parts, partsShort) {
@@ -77,6 +82,13 @@
 					<param name="FlashVars" value="config=config.xml" />
           </object>  
 		
+	      <object type="application/x-shockwave-flash" data="CitrusPlatformer.swf" width="1024" height="768" id="live">
+                    <param name="quality" value="high" />
+                    <param name="bgcolor" value="#59b3ff" />
+                    <param name="allowScriptAccess" value="sameDomain" />
+                    <param name="allowFullScreenInteractive" value="true" />
+					<param name="wmode" value="direct" />
+          </object>  
 	</body>
 	
 </html>
