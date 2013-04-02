@@ -4,6 +4,7 @@
   <language namespace="codeOrchestra.actionScript" />
   <language namespace="codeOrchestra.actionScript.logging" />
   <language namespace="codeOrchestra.projectAssets" />
+  <language namespace="codeOrchestra.actionScript.nullable" />
   <language-engaged-on-generation namespace="codeOrchestra.actionScript.logging" />
   <import index="1k6w" modelUID="f:swc_stub#(@swc_stub)" version="-1" />
   <import index="jivu" modelUID="f:swc_stub#flash.display(flash.display@swc_stub)" version="-1" />
@@ -26,6 +27,7 @@
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="3vt2" modelUID="r:49784cba-a384-4286-b969-08d540fbc32f(codeOrchestra.actionScript.structure)" version="81" implicit="yes" />
   <import index="jqm3" modelUID="r:fbe79660-97b4-428d-b1be-fe20f98872b6(codeOrchestra.actionScript.logging.structure)" version="2" implicit="yes" />
+  <import index="flsa" modelUID="r:a073351f-8c86-4aef-9c02-4b3ab5fbbac0(codeOrchestra.actionScript.nullable.structure)" version="0" implicit="yes" />
   <roots>
     <node type="3vt2.ClassConcept" typeId="3vt2.1237644023270" id="6851891929937766462">
       <property name="sourceModule" value="21a51217-d495-4d56-89fe-5e273e350280" />
@@ -2349,14 +2351,35 @@
         <node role="statement" roleId="3vt2.1237648447990" type="3vt2.IfStatement" typeId="3vt2.1630592743144674750" id="4385635661004668496">
           <node role="condition" roleId="3vt2.1630592743144674752" type="3vt2.Condition" typeId="3vt2.1630592743144646077" id="4385635661004668497">
             <node role="expressionList" roleId="3vt2.7484592148249142370" type="3vt2.ExpressionList" typeId="3vt2.2232984037991132640" id="4385635661004668498">
-              <node role="expression" roleId="3vt2.2232984037991132641" type="3vt2.DotExpression" typeId="3vt2.1237743601670" id="4385635661004668499">
-                <node role="operand" roleId="3vt2.1242234170112" type="3vt2.OperationExpression" typeId="3vt2.8480212669356022860" id="4385635661004668500">
-                  <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.ParameterReference" typeId="3vt2.1237729727368" id="4385635661004668501">
-                    <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="4385635661004642906" resolveInfo="e" />
+              <node role="expression" roleId="3vt2.2232984037991132641" type="3vt2.OrExpression" typeId="3vt2.1630592743144887993" id="8544273615521406880">
+                <node role="rightOperand" roleId="3vt2.426377380078250900" type="flsa.NullSaveDotExpression" typeId="flsa.2002468725052806374" id="8544273615521407213">
+                  <node role="operand" roleId="3vt2.1242234170112" type="3vt2.ParenthesizedExpression" typeId="3vt2.1630592743144887776" id="8544273615521406901">
+                    <node role="expression" roleId="3vt2.4871971097877898664" type="3vt2.ExpressionList" typeId="3vt2.2232984037991132640" id="8544273615521406902">
+                      <node role="expression" roleId="3vt2.2232984037991132641" type="3vt2.AsExpression" typeId="3vt2.412469317249760011" id="8544273615521406903">
+                        <node role="rightOperand" roleId="3vt2.426377380078250900" type="3vt2.ClassExpression" typeId="3vt2.1237741824320" id="8544273615521406904">
+                          <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="2qri.8544273615521362867" resolveInfo="JSKeyboardEvent" />
+                        </node>
+                        <node role="leftOperand" roleId="3vt2.426377380078249176" type="3vt2.OperationExpression" typeId="3vt2.8480212669356022860" id="8544273615521406905">
+                          <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.ParameterReference" typeId="3vt2.1237729727368" id="8544273615521406906">
+                            <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="4385635661004642906" resolveInfo="e" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.InstanceGetterReference" typeId="3vt2.3820276268350731927" id="8544273615521407216">
+                    <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="2qri.8544273615521363031" resolveInfo="metaKey" />
                   </node>
                 </node>
-                <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.InstanceGetterReference" typeId="3vt2.3820276268350731927" id="4385635661004668502">
-                  <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="2vau.~KeyboardEvent_ctrlKey_get" resolveInfo="ctrlKey" />
+                <node role="leftOperand" roleId="3vt2.426377380078249176" type="3vt2.DotExpression" typeId="3vt2.1237743601670" id="4385635661004668499">
+                  <node role="operand" roleId="3vt2.1242234170112" type="3vt2.OperationExpression" typeId="3vt2.8480212669356022860" id="4385635661004668500">
+                    <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.ParameterReference" typeId="3vt2.1237729727368" id="4385635661004668501">
+                      <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="4385635661004642906" resolveInfo="e" />
+                    </node>
+                  </node>
+                  <node role="operation" roleId="3vt2.8480212669356024585" type="3vt2.InstanceGetterReference" typeId="3vt2.3820276268350731927" id="4385635661004668502">
+                    <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="2vau.~KeyboardEvent_ctrlKey_get" resolveInfo="ctrlKey" />
+                  </node>
                 </node>
               </node>
             </node>
@@ -2795,7 +2818,7 @@
       </node>
       <node role="parameter" roleId="3vt2.3618339097803723485" type="3vt2.ParameterDeclaration" typeId="3vt2.1238615317973" id="4385635661004642906">
         <property name="name" nameId="tpck.1169194664001" value="e" />
-        <node role="type" roleId="3vt2.1238708772985" type="3vt2.ClassifierType" typeId="3vt2.1237649696613" id="4385635661004642908">
+        <node role="type" roleId="3vt2.1238708772985" type="3vt2.ClassifierType" typeId="3vt2.1237649696613" id="8544273615521406866">
           <link role="reference" roleId="3vt2.890882911603824802" targetNodeId="2vau.~KeyboardEvent" resolveInfo="KeyboardEvent" />
         </node>
       </node>
