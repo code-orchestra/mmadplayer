@@ -61,6 +61,53 @@
 			function onExerciseComplete () {
 				console.log("done:", arguments);
 			}
+			
+			function keyDown(e) {
+				var keycode = e.keyCode?e.keyCode:e.keyChar;
+				
+				var param = new Object(); 
+				param['keyCode'] = e.keyCode; 
+				param['shiftKey'] = e.shiftKey; 
+				param['shiftLeft'] = e.shiftLeft; 
+				param['ctrlKey'] = e.ctrlKey; 
+				param['ctrlLeft'] = e.ctrlLeft; 
+				param['altKey'] = e.altKey; 
+				param['metaKey'] = e.metaKey;
+				
+				document.getElementById("SP1Player").keyHandlerForAS(JSON.stringify(param));
+				document.body.focus();
+				return false;
+			}
+			
+			function focus_on(seconds) {
+			  var seconds_waited
+			  seconds_waited = seconds
+			  document.getElementById('getkey').focus(); 
+			  seconds_waited += 100;
+
+			  if (document.getElementById('getkey') != document.activeElement && seconds_waited < 2000)
+			  {
+				  setTimeout("focus_on(" + seconds_waited + ");", 100);
+			  }
+			  
+			  if (seconds_waited >= 2000)
+			  {
+			  	console.log("not found");
+			  }
+			}
+			
+			function activateFromAS() {
+				focus_on(0);
+			}
+			
+			document.onClick = function() {
+				console.log("click");
+				
+				document.getElementById('getkey').focus();
+				
+				return false;
+			}
+			
 		</script>
 		
 		<style type="text/css" media="screen">
@@ -71,10 +118,10 @@
 		
 	</head>
 
-	<body>
-		
-	      <div id="block"></div>
-	      <object type="application/x-shockwave-flash" data="SP1Player.swf" width="1000" height="800">
+	<body onload="document.getElementById('getkey').focus();">
+		  <input type="button" id="getkey" onkeydown="return keyDown(event)"/>
+		  <div id="block"></div>
+	      <object id="SP1Player" type="application/x-shockwave-flash" data="SP1Player.swf" width="1000" height="800">
                     <param name="quality" value="high" />
                     <param name="bgcolor" value="#222222" />
                     <param name="allowScriptAccess" value="sameDomain" />
