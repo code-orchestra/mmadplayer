@@ -75,35 +75,21 @@
 				param['metaKey'] = e.metaKey;
 				
 				document.getElementById("SP1Player").keyHandlerForAS(JSON.stringify(param));
-				document.body.focus();
 				return false;
 			}
 			
 			function focus_on(seconds) {
-			  var seconds_waited
-			  seconds_waited = seconds
-			  document.getElementById('getkey').focus(); 
-			  seconds_waited += 100;
-
-			  if (document.getElementById('getkey') != document.activeElement && seconds_waited < 2000)
-			  {
-				  setTimeout("focus_on(" + seconds_waited + ");", 100);
-			  }
-			  
-			  if (seconds_waited >= 2000)
-			  {
-			  	console.log("not found");
-			  }
+			  setTimeout("document.getElementById('getkey').focus()", seconds);
 			}
 			
 			function activateFromAS() {
-				focus_on(0);
+				focus_on(50);
 			}
 			
 			document.onClick = function() {
 				console.log("click");
 				
-				document.getElementById('getkey').focus();
+				focus_on(50);
 				
 				return false;
 			}
@@ -118,8 +104,8 @@
 		
 	</head>
 
-	<body onload="document.getElementById('getkey').focus();">
-		  <input type="button" id="getkey" onkeydown="return keyDown(event)"/>
+	<body onload="focus_on(50)">
+		  <input type="button" id="getkey" onkeydown="return keyDown(event)" onblur="focus_on(50)"/>
 		  <div id="block"></div>
 	      <object id="SP1Player" type="application/x-shockwave-flash" data="SP1Player.swf" width="1000" height="800">
                     <param name="quality" value="high" />
