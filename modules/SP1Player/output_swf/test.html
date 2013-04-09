@@ -8,6 +8,10 @@
 		<script>
 			function onExercise () {
 				console.log ("starting exercise, blocks:", arguments);
+				
+				if (arguments[0] == "generated.swf") {
+					document.getElementById("live").data = "CitrusPlatformer.swf";
+				}
 			}
 			
 			function onKeyDown () {
@@ -103,7 +107,7 @@
 					<param name="FlashVars" value="config=config.xml" />
           </object>  
 		
-	      <object type="application/x-shockwave-flash" data="CitrusPlatformer.swf" width="1024" height="768" id="live">
+	      <object type="application/x-shockwave-flash" data="start.swf" width="1024" height="768" id="live">
                     <param name="quality" value="high" />
                     <param name="bgcolor" value="#59b3ff" />
                     <param name="allowScriptAccess" value="sameDomain" />
