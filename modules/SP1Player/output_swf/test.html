@@ -82,18 +82,6 @@
 			  setTimeout("document.getElementById('getkey').focus()", seconds);
 			}
 			
-			function activateFromAS() {
-/*				focus_on(50);*/
-			}
-			
-/*			document.onClick = function() {
-				console.log("click");
-				
-				focus_on(50);
-				
-				return false;
-			}*/
-			
 		</script>
 		
 		<style type="text/css" media="screen">
@@ -107,7 +95,7 @@
 	<body onload="focus_on(50)">
 		  <input type="button" id="getkey" onkeydown="return keyDown(event)" onblur="focus_on(50)"/>
 		  <div id="block"></div>
-	      <object id="SP1Player" type="application/x-shockwave-flash" data="SP1Player.swf" width="1000" height="800">
+	      <object id="SP1Player" type="application/x-shockwave-flash" data="SP1Player.swf" width="1024" height="768">
                     <param name="quality" value="high" />
                     <param name="bgcolor" value="#222222" />
                     <param name="allowScriptAccess" value="sameDomain" />
