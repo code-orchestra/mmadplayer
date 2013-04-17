@@ -6,29 +6,51 @@
 		<title>index</title>
 	
 		<script>
+			var pendingSocketCommand;
+
 			function onExercise () {
 				console.log ("starting exercise, blocks:", arguments);
 				
-				if (arguments[0] == "generated.swf") {
-					document.getElementById("live").data = "CitrusPlatformer.swf";
+				var replaceLiveData;
+				switch (arguments[0]) {
+					case "generated_live_01.swf": replaceLiveData = "Live01/CitrusPlatformer.swf"; pendingSocketCommand = "livecoding::base-url:Live01::0::1"; break;
+					case "generated_live_02.swf": replaceLiveData = "Live02/CitrusPlatformer.swf"; pendingSocketCommand = "livecoding::base-url:Live02::0::1"; break;
+				}
+				
+				if (replaceLiveData) {
+					console.log ("Loading: " + replaceLiveData);
+					document.getElementById("live").data = replaceLiveData;
 				}
 			}
 			
 			function onKeyDown () {
-				console.log ("key down:", arguments);
+//				console.log ("key down:", arguments);
 				
-				var command = arguments[0].socketCommand;
+				var elements = document.getElementsByName (arguments[0].text);
+				if (elements.length > 0) {
+					elements[0].style.opacity = 0.2;
+					elements[0].setAttribute ("name", "used");
+				}
+				
+				sendSocketCommand (pendingSocketCommand); pendingSocketCommand = null;
+				
+				sendSocketCommand (arguments[0].socketCommand);
+			}
+			
+			function sendSocketCommand (command) {
 				if (command) {
+					console.log ("Socket command: " + command);
 					document.getElementById("live").incomingData(command);
 				}
 			}
 			
 			function onNewBlock (parts, partsShort) {
-				console.log (parts, partsShort)
+//				console.log (parts, partsShort)
 				// join the characters
 				var html = "";
 				for (var i = 0; i < parts.length; i++) {
 					var part = parts [i];
+					var name = part;
 					
 					if ((part.length == 7) && (part.indexOf("SHIFT") == 0)) {
 						// SHIFT 1..0 special case
@@ -45,25 +67,23 @@
 					}
 					
 					if (character.length > 0) {
-						html += "<span class='char'>" + character + "</span>"
+						html += "<span name='" + name + "' class='char'>" + character + "</span>"
 					} else {
 						// could be mapped to images here
 						if (part == "TAB") {
-							html += "<img src='http://4v4.com/images/keys/key_tab.gif' hspace='10' />";
+							html += "<img name='" + name + "' src='http://4v4.com/images/keys/key_tab.gif' hspace='10' />";
 						} else {
 							// misc keys
-							html += ", " + partsShort [i] + " ";
+							html += "<span name='" + name + "'> " + partsShort [i] + "</span> ";
 						}
 					}
 				}
-				
-				if (html.indexOf(", ") == 0) html = html.substr(2);
 				
 				document.getElementById("block").innerHTML = html;
 			}
 			
 			function onExerciseComplete () {
-				console.log("done:", arguments);
+//				console.log("done:", arguments);
 			}
 			
 			function keyDown(e) {
@@ -102,7 +122,7 @@
 	      <object id="SP1Player" type="application/x-shockwave-flash" data="SP1Player.swf" width="1024" height="768">
                     <param name="quality" value="high" />
                     <param name="bgcolor" value="#222222" />
-                    <param name="allowScriptAccess" value="sameDomain" />
+                    <param name="allowScriptAccess" value="always" />
                     <param name="allowFullScreenInteractive" value="true" />
 					<param name="FlashVars" value="config=config.xml" />
           </object>  
@@ -110,7 +130,7 @@
 	      <object type="application/x-shockwave-flash" data="start.swf" width="1024" height="768" id="live">
                     <param name="quality" value="high" />
                     <param name="bgcolor" value="#59b3ff" />
-                    <param name="allowScriptAccess" value="sameDomain" />
+                    <param name="allowScriptAccess" value="always" />
                     <param name="allowFullScreenInteractive" value="true" />
 					<param name="wmode" value="direct" />
           </object>  
