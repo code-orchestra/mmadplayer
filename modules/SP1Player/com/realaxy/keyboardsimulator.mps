@@ -10380,7 +10380,7 @@
         <property name="dynamicName" nameId="3vt2.7839223977444447255" value="fra" />
         <link role="key" roleId="3vt2.1624755644612063051" targetNodeId="q8sl.~SWF_frameRate" resolveInfo="frameRate" />
         <node role="value" roleId="3vt2.1624755644612063050" type="3vt2.StringLiteral" typeId="3vt2.1630592743144682613" id="1160805028617371710">
-          <property name="value" nameId="3vt2.3383382943159949640" value="30" />
+          <property name="value" nameId="3vt2.3383382943159949640" value="15" />
         </node>
       </node>
     </node>

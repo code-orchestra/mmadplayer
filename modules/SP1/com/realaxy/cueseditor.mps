@@ -2212,7 +2212,7 @@
                             <property name="value" nameId="3vt2.3383382943159949640" value="flash video files" />
                           </node>
                           <node role="actualArgument" roleId="3vt2.2024767275314559281" type="3vt2.StringLiteral" typeId="3vt2.1630592743144682613" id="7340642281830386242">
-                            <property name="value" nameId="3vt2.3383382943159949640" value="*.flv;*.f4v;*.mov;*.mp4" />
+                            <property name="value" nameId="3vt2.3383382943159949640" value="*.flv;*.f4v;*.mov;*.mp4;*.avi" />
                           </node>
                           <node role="actualArgument" roleId="3vt2.2024767275314559281" type="3vt2.ActualArgumentInfo" typeId="3vt2.3898885818439022004" id="7340642281830386243">
                             <node role="expression" roleId="3vt2.3898885818439022005" type="3vt2.ExpressionList" typeId="3vt2.2232984037991132640" id="7340642281830386244" />
